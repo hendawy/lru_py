@@ -24,18 +24,23 @@ How To:
 ------------
 
 Initializing an object:
+
 	lru_cache = LRU(max_size = 2)
 
-Setting a value, regular assigningment with the square bracket operator []:
+Setting a value, regular assigningment with the square bracket operator [ ]:
+
 	lru_cache['hello'] = 'world'
 
-Retrieving a value, using square bracket operator []:
+Retrieving a value, using square bracket operator [ ]:
+
 	lru_cache['hello']
 
 Deletin, using the del and using square bracket operators:
+
 	del lru_cache['hello']
 
 Retrieving the most recently used item:
+
 	lru_cache.top()
 
 Installation
@@ -46,8 +51,6 @@ Installation
 	pip install lru_py
 
 **Manual installation**: Download the latest source from `GitHub <https://github.com/hendawy/lru_py/releases>`_.
-
-.. parsed-literal::
 
 	tar xvzf lru_py-[VERSION].tar.gz
 	cd lru_py-[VERSION]
