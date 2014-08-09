@@ -50,7 +50,8 @@ Installation
 
 	pip install lru_py
 
-**Manual installation**: Download the latest source from `GitHub <https://github.com/hendawy/lru_py/releases>`_.
+**Manual installation**: Download the latest source from `GitHub 
+<https://github.com/hendawy/lru_py/releases>`_.
 
 	tar xvzf lru_py-[VERSION].tar.gz
 	cd lru_py-[VERSION]
