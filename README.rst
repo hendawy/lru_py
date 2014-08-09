@@ -53,6 +53,8 @@ Installation
 **Manual installation**: Download the latest source from `GitHub 
 <https://github.com/hendawy/lru_py/releases>`_.
 
+.. parsed-literal::
+
 	tar xvzf lru_py-[VERSION].tar.gz
 	cd lru_py-[VERSION]
 	python setup.py build
