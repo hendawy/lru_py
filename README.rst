@@ -7,9 +7,9 @@ A simple implementation for the least recently used caching algorithm
 Hello, world
 ------------
 
-A simple use for LRU 
+**A simple use for LRU**::
 
-	from lru_py import LRU::
+	from lru_py import LRU
 
 	lru_cache = LRU(max_size = 2)
 	lru_cache['hello'] = 'world'
