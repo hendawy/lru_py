@@ -1,7 +1,7 @@
 lru_py
 ======
 
-A simple implementation for the least recently used caching algorithm
+A simple python implementation for the least recently used caching algorithm.
 
 
 Hello, world
